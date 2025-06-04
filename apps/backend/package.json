@@ -1,0 +1,14 @@
+{
+  "name": "@repo/backend",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+      "preinstall": "uv sync --frozen",
+      "start": "uv run manage.py runserver",
+      "migrate": "uv run manage.py migrate",
+      "makemigrations": "uv run manage.py makemigrations",
+      "test": "uv run manage.py test",
+      "lint": "ruff check",
+      "dev": "uv run manage.py runserver"
+  }
+}

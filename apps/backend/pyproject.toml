@@ -1,0 +1,37 @@
+[project]
+name = "mf-backend"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "django>=5.2",
+    "mf-pylib",
+]
+
+[dependency-groups]
+dev = [
+    "ruff>=0.11.4",
+]
+
+[tool.uv]
+config-settings = { editable_mode = "compat" }
+
+[tool.uv.sources]
+mf-pylib = { path = "../../packages/pylib", editable = true }
+
+[tool.ruff]
+target-version = "py312"
+line-length = 110
+
+[tool.ruff.lint]
+select = [
+    "E",   # pycodestyle
+    "F",   # Pyflakes
+    "B",   # flake8-bugbear
+    "I",   # import-order
+    "C90", # mccabe
+]
+ignore = [
+  "E731",
+]

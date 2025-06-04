@@ -1,0 +1,24 @@
+{
+  "folders": [
+    {
+      "path": "apps/backend",
+      "name": "Backend (Python, Django)"
+    },
+    {
+      "path": "apps/web",
+      "name": "Web (TypeScript, React)"
+    },
+    {
+      "path": "apps/docs",
+      "name": "Docs (TypeScript, React)"
+    },
+    {
+      "path": "packages/pylib",
+      "name": "PyLib (Python)"
+    }
+  ],
+  "settings": {
+    "editor.formatOnSave": true,
+    "python.analysis.enableSyncServer": true
+  }
+}

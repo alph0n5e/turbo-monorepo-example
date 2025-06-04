@@ -1,0 +1,10 @@
+{
+  "name": "@repo/pylib",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+      "preinstall": "uv sync --frozen",
+      "test": "uv run pytest -vv",
+      "lint": "ruff check"
+  }
+}

@@ -1,0 +1,18 @@
+[project]
+name = "mf-pylib"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Antoine Robert", email = "antoine.al.robert@gmail.com" }
+]
+requires-python = ">=3.12"
+dependencies = []
+
+[tool.uv]
+config-settings = { editable_mode = "compat" }
+
+[dependency-groups]
+dev = [
+    "pytest>=8.4.0",
+]
