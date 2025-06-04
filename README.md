@@ -21,8 +21,8 @@ This Turborepo includes the following packages/apps:
 - `@repo/ui`: a stub React component library shared by both `web` and `docs` applications
 - `@repo/eslint-config`: `eslint` configurations (includes `eslint-config-next` and `eslint-config-prettier`)
 - `@repo/typescript-config`: `tsconfig.json`s used throughout the monorepo
-
-Each package/app is 100% [TypeScript](https://www.typescriptlang.org/).
+- `pylib`: a [Python](https://www.python.org) library
+- `backend`: a [Django](https://www.djangoproject.com) app
 
 ### Utilities
 
